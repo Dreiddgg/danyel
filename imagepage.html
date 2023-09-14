@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>P2 EXAM</title>
+  <style>
+    body {
+      text-align: center;
+    }
+    img {
+      width: 300px;
+      height: 300px;
+      margin: 20px;
+      border: solid crimson;
+    }
+    iframe {
+      width: 300px;
+      height: 300px;
+      margin: 20px;
+      border: solid crimson;
+    }
+    .imagecontainer {
+      display: flex;
+      justify-content: center;
+    }
+    .videocontainer {
+      display: flex;
+      justify-content: center;
+    }
+    button {
+      margin: 0 auto;
+      display: block;
+      height: 30px;
+      width: 100px; /* Fixed the width value */
+    }
+    .sec1 {
+      background-color: darkgray;
+    }
+    .sec2 {
+      background-color: gray;
+    }
+    .foot {
+      background-color: black;
+      height: 70px;
+    }
+    .head {
+      background-color: black;
+      height: 70px;
+    }
+  </style>
+</head>
+<body>
+  <header class="head"></header>
+  <section class="sec1">
+    <div class="imagecontainer">
+      <div class="img">
+        <img id="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC38oxuz0jT4zLmVIiriFtOIhUnqu3Hn92pY8SxTw5F2FEz-a055z71gJ0koVYSYoSdBA&usqp=CAU">
+        <button onclick="myFunction1()">CLICK</button>
+      </div>
+      <div class="img">
+        <img id="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJMnb2juumnG9D9lufKlm_iwkcP2wrmkCg3uB7w8meBrLtlO8ZEQ4Z5f2SsXJ0iqq0Lic&usqp=CAU">
+        <button onclick="myFunction2()">CLICK</button>
+      </div>
+      <div class="img">
+        <img id="img3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrTdtECCn0uqxDckucWVtC5zBli1U_U58gHl6jSmd_Axx4lnLh1VGHhDqEKg5My9g_0wQ&usqp=CAU">
+        <button onclick="myFunction3()">CLICK</button>
+      </div>
+    </div>
+  </section>
+  <section class="sec2">
+    <div class="videocontainer">
+      <div class="vid">
+        <iframe id="vid1" width="853" height="480" src="https://www.youtube.com/embed/vj5E2AUumYY" title="Good Vibes Music 🌻 Popular Tiktok Songs 2023 ~ English Songs For Ringtones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <button onclick="myFunction4()">CLICK</button>
+      </div>
+      <div class="vid">
+        <iframe id="vid2" width="853" height="480" src="https://www.youtube.com/embed/fLFBWlESdn4" title="90s Greatest Hits 🎈🎈 Best Oldies Songs Of 1990s 🎈🎈 Greatest 90s Music Hits" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <button onclick="myFunction5()">CLICK</button>
+      </div>
+      <div class="vid">
+        <iframe id="vid3" width="853" height="480" src="https://www.youtube.com/embed/rxnxcRsPQTs" title="Best Acoustic Songs 2023 Cover 💥 Top Hits English Acoustic Love Songs Cover 2023 With Lyrics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <button onclick="myFunction6()">CLICK</button>
+      </div>
+    </div>
+  </section>
+  <footer class="foot"></footer>
+  <script>
+    function myFunction1() {
+      document.getElementById("img1").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7hCKL9WoKfmSj9_ptJJ697Tk2DTBZhpBqVYk37XhG0QiB3FjLGM5UaY3XnPq1VYmSSMU&usqp=CAU";
+    }
+
+    function myFunction2() {
+      document.getElementById("img2").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7iZ4hdQrgkF9LTtT79wcuYICnqsbB64aWic3-olNF9bNY2VIenLfqsS0UgGgnMmAeiIw&usqp=CAU";
+    }
+
+    function myFunction3() {
+      document.getElementById("img3").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ9f1tCfPoddoQe0VxmJDJfojU6vdKj8QRvxHS_DZy5uQjaPyqevwu4MxhdwzoIJXJRqM&usqp=CAU";
+    }
+
+    function myFunction4() {
+      document.getElementById("vid1").src = "https://www.youtube.com/embed/vPHuXMlPQRs";
+    }
+
+    function myFunction5() {
+      document.getElementById("vid2").src = "https://www.youtube.com/embed/p-zgS-cxneA";
+    }
+
+    function myFunction6() {
+      document.getElementById("vid3").src = "https://www.youtube.com/embed/UeLbAvtWQ40";
+    }
+  </script>
+</body>
+</html>
